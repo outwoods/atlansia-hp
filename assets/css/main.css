@@ -1,12 +1,6 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,800,800italic");
 
-/*
-	Spectral by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -1261,6 +1255,101 @@ input, select, textarea {
 						}
 
 		}
+
+/* Atlansia refinements */
+
+body, input, select, textarea {
+	font-family: 'Open Sans', 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', Meiryo, sans-serif;
+}
+
+#header h1 a {
+	letter-spacing: 0.2em;
+}
+
+#banner h2 {
+	letter-spacing: 0.32em;
+}
+
+#banner p {
+	line-height: 2.1;
+}
+
+.about {
+	background: #f5f7f7;
+	color: #34434b;
+}
+
+.about .inner {
+	max-width: 52em;
+}
+
+.about header.major {
+	margin-bottom: 2.5em;
+}
+
+.about header.major h2 {
+	color: #26343c;
+}
+
+.about header.major h2:after {
+	background-color: #21b2a6;
+}
+
+.company-info {
+	background: #fff;
+	border: 1px solid rgba(38, 52, 60, 0.08);
+	border-radius: 0.5em;
+	box-shadow: 0 1em 3em rgba(38, 52, 60, 0.06);
+	margin: 0 auto;
+	max-width: 48em;
+	padding: 0.75em 2.5em;
+	text-align: left;
+}
+
+.company-info > div {
+	border-bottom: 1px solid #e8eded;
+	display: grid;
+	gap: 1.5em;
+	grid-template-columns: 8em 1fr;
+	padding: 1.15em 0;
+}
+
+.company-info > div:last-child {
+	border-bottom: 0;
+}
+
+.company-info dt {
+	color: #77858b;
+	font-size: 0.82em;
+	font-weight: 600;
+	letter-spacing: 0.08em;
+}
+
+.company-info dd {
+	color: #34434b;
+	margin: 0;
+}
+
+.company-info dd span {
+	color: #77858b;
+	font-size: 0.9em;
+}
+
+#footer {
+	padding: 4em 0 3em;
+}
+
+@media screen and (max-width: 600px) {
+	.company-info {
+		padding: 0.5em 1.25em;
+	}
+
+	.company-info > div {
+		gap: 0.25em;
+		grid-template-columns: 1fr;
+		padding: 1em 0;
+	}
+}
 
 		@media screen and (max-width: 736px) {
 
@@ -3997,3 +4086,16 @@ input, select, textarea {
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
 	}
+
+.wrapper.style5.about {
+	background: #f5f7f7;
+	color: #34434b;
+}
+
+.wrapper.style5.about header.major h2 {
+	color: #26343c;
+}
+
+#footer {
+	padding: 4em 0 3em;
+}
